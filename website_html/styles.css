@@ -5,62 +5,38 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
 header {
     background: hsl(56, 100%, 50%);
     color: hsl(56, 100%, 50%);
     padding: 10px 0;
     text-align: center;
 }
-
 nav {
     background: #333;
 }
-
 nav ul {
     list-style: none;
     padding: 0;
 }
-
 nav ul li {
     display: inline;
 }
-
 nav ul li a {
     color: hsl(0, 0%, 100%);
     padding: 14px 20px;
     text-decoration: none;
     display: inline-block;
 }
-
 nav ul li a:hover {
     background: #575757;
 }
-
 main {
     padding: 20px;
     background-color: hsl(187, 69%, 64%);
 }
-
 main section {
     margin-bottom: 20px;
 }
-
-h1 {
-    margin-bottom: 1rem;
-    font-weight: 700;
-    color: #ff0202;
-    animation: slideIn 2s ease-out;
-    font-size: 50px;
-    transition: background 0.3s ease, transform 0.3s ease
-}
-
-
-@keyframes slideIn {
-    from { transform: translateY(-20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
-}   
-
 footer {
     background: #1f1f1f;
 }
