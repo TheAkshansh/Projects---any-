@@ -37,6 +37,28 @@ main {
 main section {
     margin-bottom: 20px;
 }
+h2{
+    color:#c3ff00;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: cursive;
+}
+.banner-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #c3ff00;
+    font-weight: 1000;
+}
+.images{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
 footer {
     background: #1f1f1f;
 }
